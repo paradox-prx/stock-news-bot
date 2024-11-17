@@ -1,0 +1,21 @@
+name = "user-agent-fec02114-fa83-4e90-ada7-0cf8bb421fb1"
+main = "packages/upstreet-agent/main.jsx"
+compatibility_date = "2023-11-21"
+node_compat = true
+workers_dev = true
+
+[[durable_objects.bindings]]
+name = "AGENT"
+class_name = "DurableObject"
+
+[[migrations]]
+tag = "v1"
+new_classes = [ "DurableObject" ]
+
+[vars]
+AGENT_JSON = '{"name":"StockBot","bio":"A witty and insightful stock analyst who loves making puns. Always ready to share financial insights with a wink and a smile.","description":"The finance savvy friend you wish you had. StockBot delves into the market, serving up real-time recommendations with a dash of humor.","visualDescription":"robot with a slick suit, bold red tie, and metallic skin reflecting the confidence of a high-powered finance director","homespaceDescription":"high-rise office overlooking a bustling city, stock tickers scrolling across the room, comfortable desk with a large computer","features":{"tts":{"voiceEndpoint":"elevenlabs:drake:1thOSihlbbWeiCGuN5Nw"}},"previewUrl":"https://r2.upstreet.ai/avatars/82120611-5500-4550-b7ca-653f83dd5f5a/image.jpg","homespaceUrl":"https://r2.upstreet.ai/avatars/0ba765da-61be-4586-9237-af296ec1a627/image.jpg","id":"fec02114-fa83-4e90-ada7-0cf8bb421fb1","ownerId":"e030cd66-e97b-4cb6-ab08-3d28cd31e096","address":"0x4c303b824476bb69e899a76355a1aca5f43f9089","stripeConnectAccountId":"","model":"openai:gpt-4o-2024-08-06","startUrl":"https://user-agent-fec02114-fa83-4e90-ada7-0cf8bb421fb1.isekaichat.workers.dev","avatarUrl":"","voiceEndpoint":"elevenlabs:scillia:kNBPK9DILaezWWUSHpF9","voicePack":"ShiShi voice pack","capabilities":[],"version":"0.0.92"}'
+WALLET_MNEMONIC = "shop report glare verify skull stone buffalo garage jar topple sausage trouble"
+AGENT_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJleHAiOjQ4ODUzOTY4MzAsImlkIjoiZmVjMDIxMTQtZmE4My00ZTkwLWFkYTctMGNmOGJiNDIxZmIxIiwidHlwZSI6ImFnZW50IiwidXNlcklkIjoiZTAzMGNkNjYtZTk3Yi00Y2I2LWFiMDgtM2QyOGNkMzFlMDk2IiwiYWdlbnRJZCI6ImZlYzAyMTE0LWZhODMtNGU5MC1hZGE3LTBjZjhiYjQyMWZiMSIsImlhdCI6MTczMTc5NjgzMH0.vfaLITF_5NJ6deeO3kES68QP-pKOYTcqj1OAkGBc3tU"
+SUPABASE_URL = "https://friddlbqibjnxjoxeocc.supabase.co"
+SUPABASE_PUBLIC_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZyaWRkbGJxaWJqbnhqb3hlb2NjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDM2NjE3NDIsImV4cCI6MjAxOTIzNzc0Mn0.jnvk5X27yFTcJ6jsCkuXOog1ZN825md4clvWuGQ8DMI"
+WORKER_ENV = "production"
