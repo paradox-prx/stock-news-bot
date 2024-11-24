@@ -53,11 +53,16 @@ Documentation: [Polygon.io Documentation](https://polygon.io/docs/stocks/getting
 ### Prerequisites
 Node.js: Ensure you have Node.js installed (version 12 or higher).
 npm: Comes packaged with Node.js.
+USDK: Follow [this](https://docs.upstreet.ai/install) to install USDK.
 API Keys: Obtain API keys for both StockNewsAPI and Polygon.io.
 Sign up at StockNewsAPI for the news sentiment API key.
 Sign up at Polygon.io for the stock price data API key.
 
 ## Installation
+### Install USDK
+Follow the [documentation](https://docs.upstreet.ai/install)
+
+
 ### Clone the Repository
 ```
 git clone https://github.com/paradox-prx/stock-news-bot.git
