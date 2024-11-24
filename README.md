@@ -40,7 +40,7 @@ The analysis and recommendation are presented to the user in a detailed and unde
 ### 1. StockNewsAPI
 Purpose: To fetch sentiment analysis from news articles related to a specific stock ticker.
 Usage: Helps in gauging the market's perception and sentiment towards the stock based on recent news.
-Documentation: https://stocknewsapi.com/documentation
+Documentation: [StockNewsAPI](https://stocknewsapi.com/documentation)
 ### 2. Polygon.io API
 Purpose: To retrieve historical stock price data for a given ticker over a specified date range.
 Usage: Provides the necessary data to calculate technical indicators for the stock.
@@ -57,7 +57,7 @@ Sign up at Polygon.io for the stock price data API key.
 ## Installation
 ### Clone the Repository
 ```
-https://github.com/paradox-prx/stock-news-bot.git
+git clone https://github.com/paradox-prx/stock-news-bot.git
 
 cd StockBotAgent
 ```
@@ -96,9 +96,11 @@ Example Commands:
 
 ## Acknowledgments
 Upstreet: For the AI agent framework.
+
 StockNewsAPI: For providing news sentiment data.
+
 Polygon.io: For historical stock price data.
-Contributors: Thanks to everyone who has contributed to this project.
+
 ## Disclaimer
 The information provided by StockBotAgent is for educational and informational purposes only and should not be construed as financial advice. Always consult with a professional financial advisor before making investment decisions.
 
