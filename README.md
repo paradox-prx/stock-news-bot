@@ -1,10 +1,13 @@
 # STOCK BOT AGENT
-An AI Agent using Upstreet to forecast stock trends based on news and industry analysis.
+An AI Agent using Upstreet to forecast stock trends based on news and price history analysis.
 
-https://github.com/user-attachments/assets/c1236844-9b3a-489f-a199-2e76751987cf
+
+
+https://github.com/user-attachments/assets/57959240-6c2f-444e-8fe7-bb0ab80dfe24
+
 
 ## Overview
-StockBotAgent is an AI-powered assistant designed to analyze and forecast stock trends by leveraging news sentiment and technical indicators. Built using the react-agents library, it provides users with comprehensive insights and actionable recommendations on specific stock tickers.
+StockBotAgent is an AI agent made using Upstreet's SDK designed to analyze and forecast stock trends by leveraging news sentiment and technical indicators. Built using the react-agents library, USDK it provides users with comprehensive insights and actionable recommendations on specific stock tickers.
 
 ## Features
 ### News Sentiment Analysis: 
