@@ -70,23 +70,16 @@ git clone https://github.com/paradox-prx/stock-news-bot.git
 cd StockBotAgent
 ```
 
-### Install Dependencies
 
-```
-npm install
-```
 
 ### Configure Environment Variables
 
-Create a .env file in the root directory.
-
-Add your API keys to the .env file:
+Add your API keys to the agent.tsx file:
 
 ```
 POLYGON_API_KEY=your_polygon_api_key_here
 STOCKNEWS_API_KEY=your_stocknews_api_key_here
 ```
-Note: Ensure the .env file is added to your .gitignore to prevent committing sensitive information.
 
 ### Run the Application
 
